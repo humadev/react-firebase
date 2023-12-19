@@ -30,7 +30,7 @@ const Home = () => {
  
   return (
     <div className="homepage-container">
-      <h2>Welcome {email}</h2>
+      <h2>Welcome to devops course {email}</h2>
       <p>This is a static homepage. your UID is {uid}</p>
       <button className="logout-button" onClick={handleLogout}>
         Logout
